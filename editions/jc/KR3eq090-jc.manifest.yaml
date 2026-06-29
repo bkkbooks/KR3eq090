@@ -1,0 +1,54 @@
+canonical_identifier: bkk:krp/KR3eq090/jc/v1
+canonical_location: https://kanripo.org/bkk/KR3eq090/jc/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 醫學課兒策
+  identifiers:
+    krp: KR3eq090
+  tags:
+    kr-categories: KR3eq
+    tls-dates: dat04210
+  source:
+    repository: tls-texts
+    path: data/tls/KR3eq090.xml
+  edition:
+    short: jc
+assets:
+  parts:
+  - {seq: 0, filename: KR3eq090_000-jc.yaml, hash: 'sha256:87bf3a8bf50d5858ad879cad56010e5b29ed60cb8bac0927648625435fc5fa0b'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3eq090_000-jc.markers.yaml, hash: 'sha256:e1be033923b2838ba1d3ca8a9c5aa71762a4e84df8ea5d8897c9ea01d1c1176d'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3eq090_jc_000-d2.h1s1
+    span:
+    - front
+    - 0
+    - 205
+  label: 自序
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3eq090_jc_000-d3.h1s1
+    span:
+    - front
+    - 205
+    - 511
+  label: 周序
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3eq090_jc_000-d4.h1s1
+    span:
+    - body
+    - 0
+    - 21790
+  label: 正文
+  type: section
+  level: 1
+hash: sha256:59a5486cd35d8337740cbc1c67824d0dbf8900e341725d97d0d8ada4c4f18dfa
